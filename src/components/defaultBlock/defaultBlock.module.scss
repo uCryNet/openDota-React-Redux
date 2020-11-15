@@ -1,0 +1,28 @@
+.defaultBlock {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 35px auto;
+  .unit {
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 0px 0.5rem;
+    .icon svg {
+      width: 85px;
+      height: 85px;
+      fill: rgb(102, 187, 255);
+    }
+    h4 {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 300;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-weight: 300;
+      line-height: 1.5;
+      color: rgb(190, 190, 190);
+    }
+  }
+}

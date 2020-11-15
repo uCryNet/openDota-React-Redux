@@ -1,0 +1,14 @@
+.menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: #0e1622;
+  a {
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+  }
+  .activeLink {
+    color: #61dafb;
+    text-decoration: underline;
+  }
+}

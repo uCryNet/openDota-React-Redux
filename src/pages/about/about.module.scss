@@ -1,0 +1,16 @@
+.wrapper {
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  .contactWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
