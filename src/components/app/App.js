@@ -7,8 +7,6 @@ import About from "../../pages/about/about";
 import Home from "../../pages/home/home";
 import Footer from "../footer/footer";
 
-require('../app/App.module.scss');
-
 export default function App() {
   return (
     <main>
