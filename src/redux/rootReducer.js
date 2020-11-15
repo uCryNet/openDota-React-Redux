@@ -1,5 +1,4 @@
 import {HIDE_ALERT, SHOW_ALERT, REQUES_METHOD, GET_URL, FETCHED_DATA, SHOW_LOADER, HIDE_LOADER} from "./type";
-import App from "../components/app/App";
 
 const initialState = {
   alert : null,

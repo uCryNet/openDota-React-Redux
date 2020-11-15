@@ -129,10 +129,6 @@ export default function ResultWrapper() {
     }
   })
 
-  // console.log(data)
-  // console.log("--")
-  // console.log(newData)
-
   return (
     <div>
       <div className={style.wrapper}>

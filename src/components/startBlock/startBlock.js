@@ -1,11 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import style from './startBlock.module.scss';
-import Button from '@material-ui/core/Button';
 import {NavLink} from "react-router-dom";
 
 export default function StartBlock() {
-  // const [startBlockIs, startBlock] = useState(true);
-
   return (
     <div className={style.startBlock}>
       <div className={style.inner}>

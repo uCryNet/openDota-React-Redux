@@ -1,17 +1,12 @@
 import React, {useState} from 'react';
-import style from './methodWrapper.module.scss'
 import Input from "../input/input";
-import {connect, useDispatch} from "react-redux";
+import {connect} from "react-redux";
 import {getGame, getMethod, getURL, hideAlert, hideLoader, showAlert, showLoader} from "../../redux/action";
 import SimpleAlerts from "../alert/alert";
 import ResultWrapper from "../resultWrapper/resultWrapper";
 import Loader from "../loader/loader";
 
-// import StartBlock from "../startBlock/startBlock";
-
 function MethodWrapper(props) {
-  const [startBlockIs, startBlock] = useState(true);
-
   function submitHandler(event) {
     event.preventDefault()
     if (!props.idGame) {
@@ -28,7 +23,6 @@ function MethodWrapper(props) {
     }
   }
 
-  console.log(1)
   return (
     <form onSubmit={submitHandler} >
       <Input />

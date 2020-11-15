@@ -1,5 +1,5 @@
 import React from 'react';
-import {getGame, getURL} from "../../redux/action";
+import {getURL} from "../../redux/action";
 import {useDispatch, useSelector} from "react-redux";
 import Button from '@material-ui/core/Button';
 import InputUI from '@material-ui/core/Input';
