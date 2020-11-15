@@ -2,7 +2,7 @@
 
 
 In this pet project you can find basic data about the match in the game Dota 2. Works on React(hooks) and Redux.
-[Live review](https://codesandbox.io/s/sushi-shop-react-eh39n)
+[Live review](https://codesandbox.io/s/opendota-react-redux-sm7fy)
 
 ## Available Scripts
 
